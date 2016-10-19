@@ -10,9 +10,10 @@ body {
 }
 
 .border {
+	box-sizing: border-box;
 	border: solid 1px #ddd;
 	padding: 5px;
-	width: 290px;
+	width: 300px;
 
 }
 
