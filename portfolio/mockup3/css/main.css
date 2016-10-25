@@ -1,0 +1,118 @@
+h1 {
+	color: green;
+}
+
+/* {
+	border: 1px solid red !important;
+
+}*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 300px) {
+	p {
+		background-color: blue;
+	}
+}
+
+body {
+	box-sizing: border-box;
+	width: 960px;
+}
+
+.row {
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.col-1 {
+	width: 8.33%
+}
+
+.col-2 {
+	width: 16.66%
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+
+}
+
+.content {
+	width: 960px;
+	height: 350px;
+}
+
+.desc {
+	float: right;
+	margin-left: auto;
+	text-align: right;
+	margin-top: auto;
+}
+
+.title {
+	padding-left: auto;
+	margin-bottom: 2px;
+	margin-top: 2px;
+
+}
+.appName {
+	margin: 2px;
+	text-transform: uppercase;
+	color: grey;
+}
+
+
+.appsFigure {
+	margin: 0 auto;
+	padding: 0px 5px 0px 5px; 
+	text-align: center;
+}
+
